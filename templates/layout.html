@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Βάση δεδομένων Βιβλιοπωλείου</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" >
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c40b32b9f6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <h2>Dr.Dentist</h2>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="/">Home</a> </li>
+      <li><a href="/newuserform">Add user</a></li>
+      <li><a href="/displayprofiles">List All Profiles</a></li>
+    </ul>
+  </nav>
+    <hr/>
+      <div id="content">
+        {% block body %}
+
+        {% endblock %}
+      </div>
+    <hr/>
+      <button class="Clearbutton"onclick="goto()">Clear</button>
+    <script>
+      function goto(){
+        window.location.replace("http://localhost:5000/displayprofiles")
+    }
+    </script>
+
+</body>
+</html>

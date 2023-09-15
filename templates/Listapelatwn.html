@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block body %}
+<form class="forma" action="{{ url_for('displayprofileswithnames')}}" method="GET">
+<input type="text" name="name" placeholder="Onoma pelath" > <input type="search" name="lastname" placeholder="Epitheto pelath">
+
+<button class="searchbutton" >Search</button>
+</form>
+<li class="listaplhroforion"> ID - Name - Lastname - Age - Email - Description </li>
+<div class="emfanishpelatwn">
+    <ul>
+        {% for entry in egrafes %}
+    
+        
+        <li >
+            {{entry.id }} - {{entry.name}} - {{entry.lastname}} - {{entry.age}} - {{entry.email}} - {{entry.description}}
+            <a class="updateicon" href="/edituser?id={{entry.id}}"><i class="fas fa-user-edit" ></i></a>/
+            <a class="deleteicon" href="/deleteuser?id={{entry.id}}"><i class="far fa-trash-alt"></i></a>
+        </li>
+
+        {% else %}
+            <li>We could not find any people</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

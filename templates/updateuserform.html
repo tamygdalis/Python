@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block body %}
+    <form action="/updateuser" method="get">
+        Id: <input type="hidden" name="id" value="{{user[0]}}">
+        <br>
+        Age: <input type="number" name="myage" value="{{user[1]}}">
+        <br>
+        Email: <input type="text" name="myemail" value="{{user[2]}}">
+        <br>
+        Description: <input type="text" name="mydescription" value="{{user[3]}}">
+        <br>
+        <input type = "submit" value = "Submit"/>
+    </form>
+
+{% endblock %}

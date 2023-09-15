@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="searchbox">
+
+  
+          <!-- Log in Section Heading -->
+          <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Your Customers</h2>
+    
+          <!-- Icon Divider -->
+          <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+          </div>
+    
+<form class="forma" action="{{ url_for('displayprofileswithnames')}}" method="GET">
+    <div class="wrap">
+        <div class="wrap1">
+        <div class="textbox1">
+            <input type="text" name="name" placeholder="Profile First Name" > 
+        </div>
+    <div class="textbox2">
+        <input type="search" name="lastname" placeholder="Profile Last Name" ">
+    </div>
+    <button class="btn11" >Search</button>
+
+    </div>
+</div>
+</div>
+</form>
+
+</div>
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Lastname</th>
+        <th scope="col">Age</th>
+        <th scope="col">Email</th>
+        <th scope="col">Description</th>
+        <th scope="col">Edit user</th>
+        <th scope="col">Delete user</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for entry in egrafes %}
+      <tr>
+        <td>{{entry.id }}</td>
+        <td>{{entry.name}}</td>
+        <td>{{entry.lastname}}</td>
+        <td>{{entry.age}}</td>
+        <td>{{entry.email}}</td>
+        <td>{{entry.description}}</td>
+        <td><a class="updateicon" href="/edituser?id={{entry.id}}"><i class="fas fa-user-edit" ></i></a></td>
+        <td><a class="deleteicon" href="/deleteuser?id={{entry.id}}"><i class="far fa-trash-alt"></i></a></td>
+      </tr>
+      {% else %}
+            <li>We could not find any people</li>
+        {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

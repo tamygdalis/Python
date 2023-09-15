@@ -1,0 +1,259 @@
+
+.forma {
+align-items: center;
+
+
+}
+.newuser {
+  font-size: 20px;
+  text-align: center;
+
+}
+.emfanishpelatwn{
+  font-size: 23px;
+  
+
+  
+}
+.egrafhxrhsth{
+  font-size: 20px;
+  width: 500px;
+  margin-top: -15px;
+  
+}
+.button1{
+  font-size: large;
+  background-color:#1DACD6;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 2px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  
+}
+.listaplhroforion{
+  
+  font-size: 35px;
+  font-weight: 50%;
+}
+.far fa-trash-alt{
+  size: 5px;
+  color: white;
+
+}
+.deleteicon{
+  color:#1DACD6;
+  align-self: right;
+}
+.deleteicon:hover{
+  color: rgb(207, 39, 27); 
+  
+}
+.updateicon{
+  color:#1DACD6;
+  align-items: baseline;
+  align-content: space-around;
+}
+.updateicon:hover{
+  color: rgb(207, 39, 27); 
+  
+}
+.Clearbutton{
+  color: white;
+  font-size: large;
+  background-color:#1DACD6;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 6px;
+}
+.searchbutton{
+  color: whitesmoke;
+  font-size: large;
+  background-color:#1DACD6;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 6px;
+}
+
+.searchbutton:hover{
+  background-color: rgb(207, 39, 27); 
+  color: white;
+}
+.Clearbutton:hover{
+  background-color: rgb(207, 39, 27); 
+  color: white;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:#1ABC9C;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #1ABC9C;
+  margin-bottom: 50px;
+  padding:13px;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #1ABC9C;
+  text-align: left;
+
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align:center;
+}
+.textbox input{
+  border:none;
+  outline:none;
+  background:none;
+  color:#1ABC9C;
+  font-size: 18px;
+  width: 80% ;
+  float: left;
+  margin:0 10px;
+}
+.btn1{
+  width: 100%;
+  background:none;
+  border: 2px solid #1ABC9C;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin :6px;
+}
+.btn11{
+  
+    width: 250px;
+    background:none;
+    border: 1px solid #1ABC9C;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin :6px;
+    float: right;
+  }
+
+.textbox1{
+  width: 250px;
+  overflow: hidden;
+  font-size: 15px;
+  padding: 10;
+  margin: 8px 0;
+  border: 1px solid #1ABC9C;
+  text-align: center;
+  border-radius: 6px;
+  margin:6px;
+  float: left;
+
+}
+.textbox1 i{
+  width: 26px;
+  float: left;
+  text-align:center;
+}
+.textbox1 input{
+  border:none;
+  outline:none;
+  background:none;
+  color:black;
+  font-size: 17px;
+  width: 80% ;
+  float: center;
+  margin:0 10px;
+}
+.textbox2{
+  width: 250px;
+  font-size: 15px;
+  padding: 10;
+  margin: 8px 0;
+  border: 1px solid #1ABC9C;
+  text-align: center;
+  border-radius: 6px;
+  margin:6px;
+  float: left;
+
+}
+.textbox2 i{
+  width: 26px;
+  float: left;
+  text-align:center;
+}
+.textbox2 input{
+  border:none;
+  outline:none;
+  background:none;
+  color:black;
+  font-size: 17px;
+  width: 80% ;
+  float: right;
+  margin:0 10px;
+}
+.wrap{
+  width: 550px;
+  
+}
+.wrap1{
+  width: max-content;
+  float: left;
+}
+.Clearbutton{
+  width: 250px;
+    background:none;
+    border: 1px solid #1ABC9C;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin :6px;
+    float: left;
+  }
+.button1{
+  width: 200px;
+  background:none;
+  border: 1px solid #1ABC9C;
+  color: black;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  margin :0px;
+  margin-bottom: -35px;
+  float: left;
+  margin-top: -15px;}
+
+  .textbox3{
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 2px 0;
+    margin: 2px 0;
+    border-bottom: 1px solid #1ABC9C;
+    text-align: left;
+  }
+
+    .textbox3 input{
+      border:none;
+      outline:none;
+      background:none;
+      color:black;
+      font-size: 17px;
+      width: 80% ;
+      float: center;
+      margin:0 10px;
+    }

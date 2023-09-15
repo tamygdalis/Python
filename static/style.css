@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(189, 187, 187);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo{
+  font-size: 22px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+
+}
+.nav-links a{
+  color: black;
+  text-decoration: none;
+  
+}
+.nav-links li{
+  list-style: none;
+}
+
+.forma {
+align-items: center;
+
+
+}
+.newuser {
+  font-size: 20px;
+  text-align: center;
+
+}
+.emfanishpelatwn{
+  font-size: 23px;
+  
+
+  
+}
+.egrafhxrhsth{
+  font-size: 20px;
+  align-content: space-between;
+  width: 350px;
+   
+  
+}
+.button1{
+  font-size: large;
+  background-color:#1DACD6;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 2px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  
+}
+.listaplhroforion{
+  
+  font-size: 35px;
+  font-weight: 50%;
+}
+.far fa-trash-alt{
+  size: 5px;
+  color: white;
+
+}
+.deleteicon{
+  color:#1DACD6;
+  align-self: right;
+}
+.deleteicon:hover{
+  color: rgb(207, 39, 27); 
+  
+}
+.updateicon{
+  color:#1DACD6;
+  align-items: baseline;
+  align-content: space-around;
+}
+.updateicon:hover{
+  color: rgb(207, 39, 27); 
+  
+}
+.Clearbutton{
+  color: white;
+  font-size: large;
+  background-color:#1DACD6;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 6px;
+}
+.searchbutton{
+  color: whitesmoke;
+  font-size: large;
+  background-color:#1DACD6;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 6px;
+}
+
+.searchbutton:hover{
+  background-color: rgb(207, 39, 27); 
+  color: white;
+}
+.Clearbutton:hover{
+  background-color: rgb(207, 39, 27); 
+  color: white;
+}
